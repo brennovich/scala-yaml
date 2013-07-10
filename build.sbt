@@ -18,10 +18,6 @@ mainClass := None
 libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
 
 
-// Eclipse
-EclipseKeys.createSrc := EclipseCreateSrc.Default + EclipseCreateSrc.Resource
-
-
 // Publishing information
 publishMavenStyle := true
 
